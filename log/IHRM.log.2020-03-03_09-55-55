@@ -1,0 +1,11 @@
+2020-03-03 09:55:55,054 INFO [root] [__init__.py(<module>:4)] - 测试日志是否正常打印
+2020-03-03 09:55:55,204 INFO [root] [test_emp.py(test02_login_success:68)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'abe73ba8-5272-4c90-9da1-60a92e088b68'}
+2020-03-03 09:55:55,204 INFO [root] [test_emp.py(test02_login_success:71)] - 取出的令牌为：Bearer abe73ba8-5272-4c90-9da1-60a92e088b68
+2020-03-03 09:55:55,205 INFO [root] [test_emp.py(test02_login_success:75)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer abe73ba8-5272-4c90-9da1-60a92e088b68'}
+2020-03-03 09:55:55,315 INFO [root] [test_emp.py(test03_add_emp:82)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234658721954877440'}}
+2020-03-03 09:55:55,315 INFO [root] [test_emp.py(test03_add_emp:88)] - 保存的员工ID为：1234658721954877440
+2020-03-03 09:55:55,497 INFO [root] [test_emp.py(test04_query_emp:93)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234658721954877440', 'mobile': '14732323667', 'username': '大雨子大锤子123', 'password': 'f116b3aa8283b21ba7c9868be3855530', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 09:55:55,623 INFO [root] [test_emp.py(test05_modify_emp:100)] - 修改员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234658721954877440'}}
+2020-03-03 09:55:55,801 INFO [root] [test_emp.py(test05_modify_emp:109)] - 要查询的SQL语句为：select username from bs_user where id = 1234658721954877440;
+2020-03-03 09:55:55,853 INFO [root] [test_emp.py(test05_modify_emp:114)] - SQL查询出来的结果为：('new_tom',)
+2020-03-03 09:55:55,988 INFO [root] [test_emp.py(test06_delete_emp:128)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

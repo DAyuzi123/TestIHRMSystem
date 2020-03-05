@@ -1,0 +1,9 @@
+2020-03-02 16:48:40,206 INFO [root] [__init__.py(<module>:4)] - 测试日志是否正常打印
+2020-03-02 16:48:40,336 INFO [root] [test_emp.py(test02_login_success:22)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7e11903a-af08-4b89-97b2-544e780e00ad'}
+2020-03-02 16:48:40,336 INFO [root] [test_emp.py(test02_login_success:25)] - 取出的令牌为：Bearer 7e11903a-af08-4b89-97b2-544e780e00ad
+2020-03-02 16:48:40,336 INFO [root] [test_emp.py(test02_login_success:29)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 7e11903a-af08-4b89-97b2-544e780e00ad'}
+2020-03-02 16:48:40,466 INFO [root] [test_emp.py(test03_add_emp:36)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234400211484626944'}}
+2020-03-02 16:48:40,466 INFO [root] [test_emp.py(test03_add_emp:42)] - 保存的员工ID为：1234400211484626944
+2020-03-02 16:48:40,568 INFO [root] [test_emp.py(test04_query_emp:47)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234400211484626944', 'mobile': '14732323666', 'username': '大雨子大锤子123', 'password': '8542fde1a28db28637d4c4a29efa92cc', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-02 16:48:40,680 INFO [root] [test_emp.py(test05_modify_emp:54)] - 修改员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234400211484626944'}}
+2020-03-02 16:48:40,810 INFO [root] [test_emp.py(test06_delete_emp:61)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
